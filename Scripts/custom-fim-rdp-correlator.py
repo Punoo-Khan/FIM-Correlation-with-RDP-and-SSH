@@ -16,9 +16,9 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 # ============= CONFIGURATION =============
-ES_URL = "http://10.0.55.15:9200"
-ES_USER = "admin"
-ES_PASS = "admin"
+ES_URL = "https:<Wazuh-IP>:<Indexer Port>"
+ES_USER = "<Indexer Username>"
+ES_PASS = "<Indexer Password>"
 HOURS_BACK = 24
 DEBUG = True  # Set to False in production
 socket_addr = '/var/ossec/queue/sockets/queue'
